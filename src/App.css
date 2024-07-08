@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+
+.proj{
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 2%;
+  /* margin-top: 7%; */
+}
+
+.proj:hover{
+  border: "3px solid #1877f2";
+ 
+   background-image: linear-gradient( 359.4deg,  rgba(12,20,69,1) -6.9%, rgb(16, 134, 212) 109.9% ); 
+  transform: scale(1.07);
+  transition-property: transform;
+  transition-duration:1.5s;
+}
+
+.about{
+  
+  font-size:"30px";
+
+   margin-top: 20%;
+
+}
+
+
+input:placeholder-shown {
+
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input:placeholder-shown:hover{
+  border: 2px solid #1877f2;
+}
+
+textarea:placeholder-shown {
+
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea:placeholder-shown:hover{
+  border: 2px solid #1877f2;
+}
+
