@@ -176,7 +176,7 @@ const Contact = () => {
           </Box>
 
           <form
-            action="https://getform.io/f/f2cad863-a312-464c-bf76-973911fa56e1"
+            action="https://getform.io/f/nadooleb"
             method="POST"
           >
             <Box
