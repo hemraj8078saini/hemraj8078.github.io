@@ -34,6 +34,7 @@ return isLoading ? (
  <About/>
 
  <Skills/>
+ <Project/>
 
 <GithubGraph/>
 <Contact/>

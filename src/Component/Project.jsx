@@ -2,6 +2,11 @@ import { Box, Image, Text, Button } from "@chakra-ui/react";
 import { MdSlideshow } from "react-icons/md";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
+import cctns from "../images/cctns.png"
+import food from "../images/food.png"
+import ecom from "../images/ecom.png"
+import crud from "../images/crud.png"
+
 
 import React, { useState } from "react";
 
@@ -10,128 +15,45 @@ function Project() {
 
   let initialdata = [
     {
-      name: "Trendsy",
-      img: "https://user-images.githubusercontent.com/107534386/221490495-b11efa2e-2992-497d-bf90-be48e22022c2.png",
-      type: "Group",
-      desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
+      name: "CCTNS ",
+      img: cctns,
+      desc: "Introducing CCTNS Raj Police Portal's 'E-FIR Vehicle Theft Module': an online platform enabling civilians to report vehicle thefts seamlessly. This responsive UI is currently under development, designed to streamline reporting for enhanced public safety.",
       techstack:
-        "HTML, CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas",
-      livelink: "https://trendsy.vercel.app/",
-      gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone",
+        "HTML, CSS , JavaScript , React JS ",
+      livelink: "https://rajasthanpolicecctns.netlify.app/",
+      gitlink: "https://github.com/hemraj8078saini/Rajpolice_vehicle_theft_portal",
     },
 
     {
-      name: "WishKart",
-      img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
-      type: "Group",
-      desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
+      name: "food website",
+      img:food,
+      desc: "food website, where user can see all foods ,foods devided by categary or add to cart and many other functionality.",
       techstack:
-        "HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal",
-      livelink: "https://wish-kart.vercel.app/",
-      gitlink: "https://github.com/Rajendra3049/Wishkart",
+        "HTML , CSS , JavaScript , React JS ,  Bootstrap, MongoDB , NodeJS , Express JS , MongoDb",
+      livelink: "https://food.vesrcel.app/",
+      gitlink: "https://github.com/hemraj8078saini/Food_website_mern",
     },
     {
-      name: "MixMate",
-      img: "https://user-images.githubusercontent.com/107534386/233964929-968a41d8-3d98-4f7d-a4a5-7b95ca566ccf.png",
-      type: "Individual",
-      desc: "Music App , where users can listen to the playlist , with previous , pause and next features.",
-      techstack: "HTML, CSS, JavaScript",
-      livelink: "https://tangerine-rugelach-03a25a.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/MixMate/tree/master",
+      name: "Ecommerce website",
+      img: ecom,
+      desc: "Ecommerce website , where users can see all products, search product by pricing and rating and filter all products.",
+      techstack: "HTML, CSS, JavaScript, React",
+      livelink: "https://filteringswebsites.netlify.app/",
+      gitlink: "https://github.com/hemraj8078saini/Ecommerwebsite_Filtering",
     },
 
     {
-      name: "Netflix",
-      img: "https://user-images.githubusercontent.com/107534386/233796144-e226efee-457a-4eb0-a9d0-d0d1986593f0.png",
-      type: "Individual",
-      desc: "Movie App , It is a Netflix Clone , where user can find movies , sort the movies as per their ratings and search their favourite movies.",
-      techstack: "HTML, CSS, JavaScript , OMDB-Api",
-      livelink: "https://courageous-macaron-4af75e.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/Netflix/tree/master",
+      name: "CRUD OPERATION",
+      img: crud,
+      desc: "crud operation , It is a react crud operation website , where user can perform  create, read, update and delete operation in react.",
+      techstack: "HTML, CSS, JavaScript , React, Json Server",
+      livelink: "https://crudoperationsinreact.netlify.app/",
+      gitlink: "https://github.com/hemraj8078saini/Crud_Operation_React",
     },
   ];
 
   let projectdata = [
-    {
-      name: "Trendsy",
-      img: "https://user-images.githubusercontent.com/107534386/221490495-b11efa2e-2992-497d-bf90-be48e22022c2.png",
-      type: "Group",
-      desc: "A clone of Myntra,Online Shopping Site for Fashion & Lifestyle.Fashion Expert brings you a variety lifestyle products.",
-      techstack:
-        "HTML, CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas",
-      livelink: "https://trendsy.vercel.app/",
-      gitlink: "https://github.com/Shalini1908/Trendsy-Myntra-Clone",
-    },
-
-    {
-      name: "WishKart",
-      img: "https://user-images.githubusercontent.com/107534386/215671577-26a75411-b5b7-452b-a17e-273f1eed89d8.png",
-      type: "Group",
-      desc: "A clone of Meesho , Users can buy lifestyle products like clothes , electronics , bag , home kitchen etc.",
-      techstack:
-        "HTML , CSS , JavaScript , React JS , Redux , Chakra UI, MongoDB , NodeJS , Express JS , Mongo Atlas, Auth0 , React-reveal",
-      livelink: "https://wish-kart.vercel.app/",
-      gitlink: "https://github.com/Rajendra3049/Wishkart",
-    },
-
-    {
-      name: "MixMate",
-      img: "https://user-images.githubusercontent.com/107534386/233964929-968a41d8-3d98-4f7d-a4a5-7b95ca566ccf.png",
-      type: "Individual",
-      desc: "Music App , where users can listen to the playlist , with previous , pause and next features.",
-      techstack: "HTML, CSS, JavaScript",
-      livelink: "https://tangerine-rugelach-03a25a.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/MixMate/tree/master",
-    },
-
-    {
-      name: "Netflix",
-      img: "https://user-images.githubusercontent.com/107534386/233796144-e226efee-457a-4eb0-a9d0-d0d1986593f0.png",
-      type: "Individual",
-      desc: "Movie App , It is a Netflix Clone , where user can find movies , sort the movies as per their ratings and search their favourite movies.",
-      techstack: "HTML, CSS, JavaScript , OMDB-Api",
-      livelink: "https://courageous-macaron-4af75e.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/Netflix/tree/master",
-    },
-
-    {
-      name: "YouTube",
-      img: "https://user-images.githubusercontent.com/107534386/214225604-805f9f4e-1c5d-43d6-a4d5-d8bd19df7aeb.png",
-      type: "Individual",
-      desc: "Youtube App created by html , css and javascript, where user can search videos , see recommended videos and default videos also",
-      techstack: "HTML, CSS, JavaScript",
-      livelink: "https://youtube-lyart.vercel.app/",
-      gitlink: "https://github.com/Shalini1908/Youtube",
-    },
-
-    {
-      name: "Crystalvillas",
-      img: "https://user-images.githubusercontent.com/107534386/210261964-a5cb2fa2-1162-4ceb-bcb6-6229e8eb2448.png",
-      type: "Group",
-      desc: "Cloned website of Tripvillas , a holiday homes - villas, apartments & homestays booking website ",
-      techstack: "HTML, CSS, JavaScript",
-      livelink: "https://venerable-beignet-fdbc14.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/-faithful-gun-126",
-    },
-
-    {
-      name: "Bellavita",
-      img: "https://user-images.githubusercontent.com/107534386/211152613-d4f2e55d-d491-47a7-bc91-21c791c819ec.png",
-      type: "Group",
-      desc: "This is a cloned website of Bellavita Organic , a digital first luxury yet affordable natural skincare brand in india",
-      techstack: "HTML ,CSS,JavaScript",
-      livelink: "https://sparkling-sable-5e1c8b.netlify.app/",
-      gitlink: "https://github.com/Rafayal383/dreary-hand-8237",
-    },
-    {
-      name: "Bigbite",
-      img: "https://user-images.githubusercontent.com/107534386/208698525-65d89ea4-3752-4277-957d-75a9efc64648.png",
-      type: "Individual",
-      desc: "A cloned website of Kindmeal , which is meatfree lifestyle platform",
-      techstack: "HTML, CSS, JavaScript,React JS,Chakra UI",
-      livelink: "https://glittering-lamington-a7bf4c.netlify.app/",
-      gitlink: "https://github.com/Shalini1908/daring-idea-7674",
-    },
+   
   ];
 
   return (
@@ -185,9 +107,7 @@ function Project() {
                           <Text fontSize={["2xl", "3xl", "4xl"]}>
                             {project.name}
                           </Text>
-                          <Text fontSize={["xl", "2xl", "3xl"]}>
-                            ( {project.type} )
-                          </Text>
+                          
                           <Text
                             textAlign={"center"}
                             w={["100%", "90%", "70%"]}
@@ -336,17 +256,7 @@ function Project() {
             </Box>
           )}
         </Box>
-        <Button
-          onClick={() => {
-            setViewmore(!viewmore);
-          }}
-          marginTop={"18px"}
-          color={"black"}
-          fontSize={"18px"}
-          bgColor={"#00b9e8"}
-        >
-          {viewmore ? "view less" : "view more"}
-        </Button>
+        
       </Box>
     </>
   );

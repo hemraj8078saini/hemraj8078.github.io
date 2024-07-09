@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavLink from "../Component/Navlink";
-import Resume from "../images/Shalini_Singh _fw20_0377.pdf";
+import Resume from "../images/Hemraj Saini React  Developer.pdf";
 import { Link } from "react-scroll";
 
 const links = [
@@ -47,7 +47,7 @@ export default function Simple() {
       <Box
         top={0}
         m={0}
-        p={0}             
+        p={0}
         zIndex={1}
         bg={isscroll ? "#00b9e8" : "black"}
         fontWeight={isscroll ? "600" : "400"}
@@ -60,7 +60,6 @@ export default function Simple() {
           <Link to="/">
             <Flex>
               <Text
-               
                 fontSize={["20px", "xl", "3xl"]}
                 fontWeight={isscroll ? "600" : "400"}
                 color={isscroll ? "black" : "#00b9e8"}
@@ -76,7 +75,7 @@ export default function Simple() {
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon color={"black"} />}
             aria-label={"Open Menu"}
             // display={{ xl: "none" }}
-            display={{xl: "none" }} 
+            display={{ xl: "none" }}
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
@@ -92,18 +91,21 @@ export default function Simple() {
                     <a
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/1yZVeJ4SNWnga91yeooINuZeDYPNUU53J/view?usp=sharing",
-                          
+                          "https://drive.google.com/file/d/1a-T4pht4FlxnwO6Vu9obYgySu942G7Ze/view",
+
                           "blank"
                         );
                       }}
                       href={Resume}
-                      download="Shalini_Singh _fw20_0377.pdf"
+                      download="Hemraj Saini React  Developer.pdf"
                     >
-                      <Text className="navbarsing" fontSize={["lg", "xl", "2xl"]} cursor={"pointer"}
-                      _hover={{
-                       textDecoration: "underline",
-                      }}
+                      <Text
+                        className="navbarsing"
+                        fontSize={["lg", "xl", "2xl"]}
+                        cursor={"pointer"}
+                        _hover={{
+                          textDecoration: "underline",
+                        }}
                       >
                         {link.name}
                       </Text>
@@ -117,7 +119,7 @@ export default function Simple() {
                       onClick={() => onClose()}
                       _hover={{
                         textDecoration: "underline",
-                       }}
+                      }}
                     />
                   )}
                 </>
@@ -136,18 +138,20 @@ export default function Simple() {
                     <a
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/file/d/1yZVeJ4SNWnga91yeooINuZeDYPNUU53J/view?usp=sharing",
+                          "https://drive.google.com/file/d/1a-T4pht4FlxnwO6Vu9obYgySu942G7Ze/view",
                           "blank"
                         );
                       }}
                       href={Resume}
-                      download="fw20_0377-Shalini-Singh-Resume"
+                      download="Hemraj Saini React  Developer.pdf"
                     >
-                      <Text fontSize={["lg", "xl", "2xl"]} cursor={"pointer"}
-                       _hover={{
-                       textDecoration: "underline",
-                      }}
-                       >
+                      <Text
+                        fontSize={["lg", "xl", "2xl"]}
+                        cursor={"pointer"}
+                        _hover={{
+                          textDecoration: "underline",
+                        }}
+                      >
                         {link.name}
                       </Text>
                     </a>
