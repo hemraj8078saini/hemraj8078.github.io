@@ -6,6 +6,7 @@ import cctns from "../images/cctns.png"
 import food from "../images/food.png"
 import ecom from "../images/ecom.png"
 import crud from "../images/crud.png"
+import ecommerce from "../images/ecommerce.png"
 
 
 import React, { useState } from "react";
@@ -14,6 +15,14 @@ function Project() {
   const [viewmore, setViewmore] = useState(false);
 
   let initialdata = [
+    {
+      name: "Ecommerce website",
+      img:ecommerce ,
+      desc: "Ecommerce website  where users can see all products, Add to cart functionality, Payment gateway, Admin Panel, and many more Functionality.",
+      techstack: "HTML, CSS, JavaScript, React, Firebase",
+      livelink: "https://hemrajecommercewebsites.netlify.app/",
+      gitlink: "https://github.com/hemraj8078saini/Ecommerce_Website",
+    },
     {
       name: "CCTNS ",
       img: cctns,
@@ -25,7 +34,7 @@ function Project() {
     },
 
     {
-      name: "food website",
+      name: "Food website",
       img:food,
       desc: "food website, where user can see all foods ,foods devided by categary or add to cart and many other functionality.",
       techstack:
